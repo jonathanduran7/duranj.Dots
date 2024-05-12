@@ -212,3 +212,5 @@ plugins {
      compact-bar { path "compact-bar"; }
      session-manager { path "session-manager"; }
 }
+
+default_layout "work"
