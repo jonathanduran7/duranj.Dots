@@ -1,9 +1,8 @@
 return {
   "nvim-cmp",
   dependencies = {
-    -- Copilot
     {
-      "github/copilot.vim"
+      "github/copilot.vim",
     },
   },
   ---@param opts cmp.ConfigSchema
