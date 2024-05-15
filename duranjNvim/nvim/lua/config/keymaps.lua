@@ -3,12 +3,7 @@
 -- Add any additional keymaps here
 
 -- Delete all buffers but the current one --
-vim.keymap.set(
-  "n",
-  "<leader>bq",
-  '<Esc>:%bdelete|edit #|normal`"<Return>',
-  { desc = "Delete other buffers but the current one" }
-)
+vim.keymap.set("n", "<leader>bq", ":%bd|e#|bd#<CR>", { desc = "Delete other buffers but the current one" })
 
 -- Position cursor at the middle of the screen after scrolling half page
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
