@@ -11,7 +11,6 @@ return {
     },
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
-
   {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
