@@ -2,6 +2,9 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
+-- go back file or position
+vim.keymap.set("n", "gb", "<C-^>", { desc = "Go back file or position" })
+
 -- Delete all buffers but the current one --
 vim.keymap.set("n", "<leader>bq", ":%bd|e#|bd#<CR>", { desc = "Delete other buffers but the current one" })
 
