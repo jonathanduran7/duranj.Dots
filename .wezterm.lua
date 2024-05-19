@@ -51,6 +51,7 @@ config.hide_tab_bar_if_only_one_tab = true
 
 config.default_domain = 'WSL:Ubuntu-22.04'
 config.front_end = "WebGpu"
+config.font = wezterm.font 'IosevkaTerm NFM'
 config.max_fps = 120
 for _, gpu in ipairs(wezterm.gui.enumerate_gpus()) do
   if gpu.backend == "Vulkan" then
