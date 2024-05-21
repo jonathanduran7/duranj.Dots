@@ -18,6 +18,14 @@ return {
     },
   },
 
+  -- comments
+  {
+    "numToStr/Comment.nvim",
+    config = function()
+      require("Comment").setup()
+    end,
+  },
+
   {
     "dinhhuy258/git.nvim",
     event = "BufReadPre",
